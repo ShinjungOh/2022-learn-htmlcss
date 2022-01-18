@@ -8,21 +8,94 @@
 <h1>텍스트 태그 연습</h1>
 <p>텍스트 태그 연습</p>
 <hr/>
+<div>
+    <h2>리스트 만들기</h2>
+    <h3>연습 목록</h3>
+    <ol>
+        <li>
+            <mark>리스트 만들기</mark>
+        </li>
+        <li>텍스트 태그 연습</li>
+        <li>이미지 연습</li>
+        <li>링크 연습</li>
+    </ol>
 
-<h2>텍스트 태그 연습</h2>
-<p>텍스트 태그 연습</p>
-<p>p 태그는 하나의 문단을 나타낸다</p>
-<p>따라서 하나의 p 태그는 자기만의 영역을 가진다
+    <h3>귀여운 동물</h3>
+    <ul>
+        <li><strong>앵무새</strong></li>
+        <li>고양이</li>
+        <li>호랑이</li>
+        <li>강아지</li>
+    </ul>
+
+
+</div>
+<hr>
+
+<div id="text">
+    <h2 class="title"><span>텍스트</span> 태그 연습</h2>
+    <p>텍스트 태그 연습</p>
+    <p>p 태그는 하나의 문단을 나타낸다</p>
+    <p>따라서 하나의 p 태그는 자기만의 영역을 가진다
+        <br><br><br>
+        공백
+        <br>
+        그리고
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        줄바꿈
+        <!-- HTML은 텍스트의 줄바꿈, 공백 등을 엔터와 스페이스로 처리하지 않는다
+        스페이스는 한 번씩만 허용된다
+        태그 br은 줄바꿈, 문자조합 &nbsp;는 공백을 나타낸다 -->
+    </p>
+    <strong>굵은 글자 만들기</strong>
+    <em>기울어진 글자 만들기</em>
+    <mark>형광칠된 글자 만들기</mark>
+
+    <p>p 태그 안에서 인라인 요소 만들기
+        <strong>p 태그 안에서 굵게 표시하기</strong>
+        내용 입력
+    <p>블록 안에 블록 넣기</p>
+    <mark>p 태그 안에서 형광색 칠하기</mark>
+    내용 입력
+    </p>
+</div>
+<hr>
+<div id="image">
+    <h2 class="title"><span>이미지</span> 연습</h2>
+    <img src="images/black%20cat2.jpeg"
+         alt="깜냥이가 놀라서 뛰어오르는 사진"
+         width="300" title="깜냥이 점프">
+    <p>이미지 표시에는 img태그를 사용</p>
+    <img src="https://mblogthumb-phinf.pstatic.net/MjAxOTAxMzFfMjc2/MDAxNTQ4ODg4ODg5MzY3.v7f7pwG2zvWlnaXVZTRUqm9PQ0T6VCiVMoLYRsb2gZMg.vRH6N1hSEX4v-ddPCcAmGY7pVAUBLh_S5EaFpt6hmAIg.JPEG.ik102001/movie_image.jpg?type=w800"
+         height="300" title="투슬리스 커플">
+</div>
+<hr>
+<div>
+    <h2>링크 연습</h2>
+    <a href="https://www.naver.com/">
+        <img src="images/naver.jpeg" width="300"</a>
+    <br>
+
+    <a href="https://www.naver.com/">
+        <img src="https://blog.kakaocdn.net/dn/CNxUY/btqw7dnElRU/HuVZgvpT6J8n4aEYFathEk/img.jpg"
+             width="200"</a>
+
     <br><br><br>
-    공백 그리고
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    줄바꿈
-    <!-- HTML은 텍스트의 줄바꿈, 공백 등을 엔터와 스페이스로 처리하지 않는다
-    스페이스는 한 번씩만 허용된다
-    태그 br은 줄바꿈, 문자조합 &nbsp;는 공백을 나타낸다 -->
-</p>
+    <a href="https://www.naver.com/" target="_self">
+        네이버로 링크걸기</a>
+    <br>
+    <a href="https://www.google.com/" title="구글" target="_blank">
+        구글로 링크걸기</a>
 
+
+    <br><br><br>
+    <a href="tel:010-0000-0000">010-0000-0000</a>
+    <br>
+    <a href="mailto:shinjung95@hanmail.net">shinjung95@hanmail.net</a>
+
+
+</div>
 
 </body>
 </HTML>

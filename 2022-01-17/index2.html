@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- 호환성 관련 설정 -->
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <meta name="author" content="SJOH">
+    <meta name="keywords" content="메타태그, 학습, 코딩>"
+    <meta name="discription" content="메타태그를 추가하는 방법">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+</head>
+
+<body>
+<h2>다양한 입력 요소 만들기</h2>
+<input name="text" type="text" maxlength="5"
+       placeholder="여기에 입력"> <br><br>
+
+<input name="push" type="button" value="push"> <br><br>
+
+<input name="color" type="color"> &nbsp; 색깔 선택 <br><br>
+
+<input name="score" type="range" max="100" min="0"
+       step="10"> <br><br>
+
+<input name="birthday" type="date"> <br><br>
+<br><br><br>
+
+
+<h2>키우고 싶은 동물 고르기</h2>
+<form action="exam.php" method="post">
+    <input type="text" name="name" placeholder="name">
+    <br>
+    <select name="pet">
+        <option value="cat">고양이</option>
+        <option value="dog">강아지</option>
+        <option value="parrot" selected>앵무새</option>
+        <option value="hamster">햄스터</option>
+    </select>
+
+    <br>
+    <textarea name="content"
+              rows="5" cols="10">기타 입력</textarea>
+    <br>
+    <input type="submit" value="전송">
+</form>
+</body>
+</html>
