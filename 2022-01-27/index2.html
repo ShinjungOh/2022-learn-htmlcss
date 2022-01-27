@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>의사요소</title>
+    <style>
+        /*
+        first-line marker placeholder before after
+        */
+        p::first-line{
+            color: red;
+        }
+        p::first-letter{
+            color: yellow;
+        }
+        li::marker{
+            color: skyblue;
+            font-size: 20px;
+        }
+        input::placeholder{
+            font-size: 25px;
+            color: black;
+        }
+
+        div::before{
+            content:"앞에다 추가한 텍스트";
+            color: teal; font-weight: 100;
+        }
+
+        div::after{
+            content:"뒤에다 추가한 텍스트";
+            color: greenyellow; font-weight: 900;
+        }
+    </style>
+</head>
+
+
+<body>
+<div>원래 쓰여있던 내용</div>
+
+<p>
+    퍼스트 라인 그리고 퍼스트 레터
+    퍼스트 라인 그리고 퍼스트 레터
+    퍼스트 라인 그리고 퍼스트 레터
+    퍼스트 라인 그리고 퍼스트 레터
+</p>
+<br>
+<ul>
+    <li>강아지</li>
+    <li>고양이</li>
+    <li>앵무새</li>
+    <li>햄스터</li>
+</ul>
+<br>
+<input tyep="text" placeholder="아무거나 입력">
+</body>
+</html>
