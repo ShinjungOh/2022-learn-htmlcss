@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Grid</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+<!-- https://tailwindcss.com/docs/grid-template-columns -->
+<!-- https://tailwindcss.com/docs/grid-column -->
+<!-- https://tailwindcss.com/docs/grid-template-rows -->
+
+<h2>1</h2>
+<div class="grid grid-cols-3 gap-2 border-4 border-red-300">
+    <div class="border-4 border-purple-400">hello</div>
+    <div class="border-4 border-purple-400">hello</div>
+    <div class="border-4 border-purple-400">hello</div>
+    <div class="border-4 border-purple-400">hello</div>
+    <div class="border-4 border-purple-400">hello</div>
+    <div class="border-4 border-purple-400">hello</div>
+</div>
+
+<h2>2 반응형</h2>
+<div class="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 gris-cols-3 gap-2 border-4 border-red-300">
+    <div class="border-4 border-purple-400">hello</div>
+    <div class="border-4 border-purple-400">hello</div>
+    <div class="border-4 border-purple-400">hello</div>
+    <div class="border-4 border-purple-400">hello</div>
+    <div class="border-4 border-purple-400">hello</div>
+    <div class="border-4 border-purple-400">hello</div>
+</div>
+
+<h2>3 rows</h2>
+<div class="grid grid-cols-3 grid-rows-4 gap-2 border-4 border-red-300">
+    <div class="border-4 border-purple-400">hello</div>
+    <div class="border-4 border-purple-400">hello</div>
+    <div class="border-4 border-purple-400">hello</div>
+    <div class="border-4 border-purple-400">hello</div>
+    <div class="border-4 border-purple-400">hello</div>
+    <div class="border-4 border-purple-400">hello</div>
+</div>
+
+<h2>4</h2>
+<div class="grid grid-cols-3 grid-rows-3 gap-2 border-4 border-red-300">
+    <div class="border-4 border-purple-400">hello 1</div>
+    <div class="border-4 border-purple-400">hello 2</div>
+    <div class="border-4 border-purple-400">hello 3</div>
+    <div class="border-4 border-purple-400">hello 4</div>
+    <div class="border-4 border-purple-400">hello 5</div>
+    <div class="border-4 border-purple-400">hello 6</div>
+</div>
+
+<h2>5 flow</h2>
+<div class="grid grid-cols-4 grid-rows-3 grid-flow-col gap-2 border-4 border-red-300">
+    <div class="border-4 border-purple-400">hello 1</div>
+    <div class="border-4 border-purple-400">hello 2</div>
+    <div class="border-4 border-purple-400">hello 3</div>
+    <div class="border-4 border-purple-400">hello 4</div>
+    <div class="border-4 border-purple-400">hello 5</div>
+    <div class="border-4 border-purple-400">hello 6</div>
+</div>
+
+<h2>6</h2>
+<div class="grid grid-cols-4 grid-rows-4 gap-2 border-4 border-red-300">
+    <div class="col-span-2 row-span-2 border-4 border-purple-400">hello 1</div>
+    <div class="col-span-2 border-4 border-purple-400">hello 2</div>
+    <div class="border-4 border-purple-400">hello 3</div>
+    <div class="border-4 border-purple-400">hello 4</div>
+    <div class="border-4 border-purple-400">hello 5</div>
+    <div class="border-4 border-purple-400">hello 6</div>
+</div>
+
+<h2>7 셀 병합</h2>
+<div class="grid grid-cols-4 grid-rows-4 gap-2 border-4 border-red-300">
+    <div class="col-start-1 col-end-4 row-start-1 row-end-3 border-4 border-purple-400">hello 1</div>
+    <div class="border-4 border-purple-400">hello 2</div>
+    <div class="border-4 border-purple-400">hello 3</div>
+    <div class="border-4 border-purple-400">hello 4</div>
+    <div class="border-4 border-purple-400">hello 5</div>
+    <div class="border-4 border-purple-400">hello 6</div>
+</div>
+
+<h2>8 시작점 지정</h2>
+<div class="grid grid-cols-4 grid-rows-4 gap-2 border-4 border-red-300">
+    <div class="border-4 border-purple-400">hello 1</div>
+    <div class="col-start-1 row-start-2 border-4 border-purple-400">hello 2</div>
+    <div class="border-4 border-purple-400">hello 3</div>
+    <div class="border-4 border-purple-400">hello 4</div>
+    <div class="border-4 border-purple-400">hello 5</div>
+    <div class="border-4 border-purple-400">hello 6</div>
+</div>
+
+<h2>9 반응형</h2>
+<div class="grid grid-cols-4 grid-rows-4 gap-2 border-4 border-red-300">
+    <div class="md:col-start-1 md:col-end-3 md:row-start-1 md:row-end-3 border-4 border-purple-400">hello 1</div>
+    <div class="border-4 border-purple-400">hello 2</div>
+    <div class="border-4 border-purple-400">hello 3</div>
+    <div class="border-4 border-purple-400">hello 4</div>
+    <div class="border-4 border-purple-400">hello 5</div>
+    <div class="border-4 border-purple-400">hello 6</div>
+</div>
+
+<h2>10</h2>
+<div class="grid grid-cols-4 grid-rows-4 gap-2 border-4 border-red-300">
+    <div class="border-4 border-purple-400">hello 1</div>
+    <div class="border-4 border-purple-400">hello 2</div>
+    <div class="border-4 border-purple-400">hello 3</div>
+    <div class="md:col-start-1 md:col-end-3 md:row-start-1 md:row-end-3 border-4 border-purple-400">hello 4</div>
+    <div class="border-4 border-purple-400">hello 5</div>
+    <div class="border-4 border-purple-400">hello 6</div>
+</div>
+
+<!-- items-center, items-start, items-end, items-stretch... -->
+
+<h2>11</h2>
+<div class="grid grid-cols-4 grid-rows-4 items-center gap-2 border-4 border-red-300">
+    <div class="border-4 border-purple-400">hello 1</div>
+    <div class="border-4 border-purple-400">hello 2</div>
+    <div class="border-4 border-purple-400">hello 3</div>
+    <div class="md:col-start-1 md:col-end-3 md:row-start-1 md:row-end-3 border-4 border-purple-400">hello 4</div>
+    <div class="border-4 border-purple-400">hello 5</div>
+    <div class="border-4 border-purple-400">hello 6</div>
+</div>
+
+<h2>12</h2>
+<div class="grid grid-cols-4 grid-rows-4 items-end gap-2 border-4 border-red-300">
+    <div class="h-20 border-4 border-purple-400">hello 1</div>
+    <div class="border-4 border-purple-400">hello 2</div>
+    <div class="h-20 border-4 border-purple-400">hello 3</div>
+    <div class="h-20 border-4 border-purple-400">hello 4</div>
+    <div class="h-20 border-4 border-purple-400">hello 5</div>
+    <div class="h-20 border-4 border-purple-400">hello 6</div>
+</div>
+
+<!-- justify-items-start, justify-items-end, justify-items-center -->
+
+<h2>13</h2>
+<div class="grid grid-cols-4 grid-rows-4 justify-items-start gap-2 border-4 border-red-300">
+    <div class="h-20 border-4 border-purple-400">hello 1</div>
+    <div class="border-4 border-purple-400">hello 2</div>
+    <div class="h-20 border-4 border-purple-400">hello 3</div>
+    <div class="h-20 border-4 border-purple-400">hello 4</div>
+    <div class="h-20 border-4 border-purple-400">hello 5</div>
+    <div class="h-20 border-4 border-purple-400">hello 6</div>
+</div>
+
+<!-- content-start, content-end, content-center, content-between, content-around -->
+
+<h2>14</h2>
+<div class="h-80 grid grid-cols-4 content-around gap-2 border-4 border-red-300">
+    <div class="h-20 border-4 border-purple-400">hello 1</div>
+    <div class="border-4 border-purple-400">hello 2</div>
+    <div class="h-20 border-4 border-purple-400">hello 3</div>
+    <div class="h-20 border-4 border-purple-400">hello 4</div>
+    <div class="h-20 border-4 border-purple-400">hello 5</div>
+    <div class="h-20 border-4 border-purple-400">hello 6</div>
+</div>
+
+<h2>15 order</h2>
+<div class="grid grid-cols-4 gap-2 border-4 border-red-300">
+    <div class="border-4 border-purple-400">hello 1</div>
+    <div class="border-4 border-purple-400 order-first">hello 2</div>
+    <div class="border-4 border-purple-400">hello 3</div>
+    <div class="border-4 border-purple-400">hello 4</div>
+    <div class="border-4 border-purple-400">hello 5</div>
+    <div class="border-4 border-purple-400">hello 6</div>
+</div>
+
+</body>
+</html>
