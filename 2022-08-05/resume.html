@@ -42,43 +42,40 @@
 <body>
 <h1 class="sr-only">이력서</h1>
 <div id="u_skip">
-    <a href="#newsstand">
-        <span>뉴스스탠드 바로가기</span>
+    <a href="#details">
+        <span>Details 바로가기</span>
     </a>
-    <a href="#themecast">
-        <span></span>
+    <a href="#profile">
+        <span>Profile 바로가기</span>
     </a>
-    <a href="#timesquare">
-        <span></span>
+    <a href="#projectHistory">
+        <span>Project History 바로가기</span>
     </a>
-    <a href="#shopcast">
-        <span></span>
-    </a>
-    <a href="#account">
-        <span></span>
+    <a href="#degree">
+        <span>Degree 바로가기</span>
     </a>
 </div>
 
-<div class="container m-6">
+<div class="container lg:p-20 p-8 space-y-4">
     <div class="lg:flex">
         <div class="lg:w-1/4">
             <img src="profile.png" alt="프로필 사진" class="rounded-full w-32 h-32 lg:w-48 lg:h-48">
         </div>
         <div class="lg:w-3/4">
             <div class="text-5xl lg:text-7xl">Shinjung<span class="text-[#3EAF0E]">.Oh</span></div>
-            <div class="mt-6 text-gray-400 font-bold">Frontend Developer</div>
+            <div class="mt-5 lg:ml-3 text-gray-400 font-bold">Frontend Developer</div>
         </div>
     </div>
     <div class="lg:flex">
-        <div class="lg:w-1/4 flex-col space-y-8">
+        <div id="details" class="lg:w-1/4 flex-col space-y-8">
             <div class="text-2xl text-[#3EAF0E] font-bold"><span
                     class="inline-block w-8 h-8 rounded bg-[#3EAF0E] text-white text-center">1</span> Details
             </div>
-            <div>
+            <div class="ml-5">
                 <div class="text-xl">Github</div>
                 <a class="text-gray-400" href="https://github.com/ShinjungOh">https://github.com/ShinjungOh</a>
             </div>
-            <div class="space-y-2">
+            <div class="ml-5 space-y-2">
                 <div class="text-xl">Homepage and Service</div>
                 <a class="text-gray-400 inline-block"
                    href="https://github.com/ShinjungOh">https://github.com/ShinjungOh</a>
@@ -87,39 +84,42 @@
                 <a class="text-gray-400 inline-block"
                    href="https://github.com/ShinjungOh">https://github.com/ShinjungOh</a>
             </div>
-            <div>
+            <div class="ml-5">
                 <div class="text-xl">Skills</div>
-                <div class="list-disc">
-                    <div class="flex gap-2 mt-2">
-                        <div class="w-1/6">HTML/CSS</div>
-                        <div class="w-1/6 bg-[#3EAF0E] h-2 mt-2 rounded-lg"></div>
-                        <div class="w-1/6 bg-[#3EAF0E] h-2 mt-2 rounded-lg"></div>
-                        <div class="w-1/6 bg-[#3EAF0E] h-2 mt-2 rounded-lg"></div>
-                    </div>
-                    <div class="flex gap-2 mt-2">
-                        <div class="w-1/6">JavaScript</div>
-                        <div class="w-1/6 bg-[#3EAF0E] h-2 mt-2 rounded-lg"></div>
-                        <div class="w-1/6 bg-[#3EAF0E] h-2 mt-2 rounded-lg"></div>
-                        <div class="w-1/6 bg-[#3EAF0E] h-2 mt-2 rounded-lg"></div>
-                    </div>
-                    <div class="flex gap-2 mt-2">
-                        <div class="w-1/6">TypeScript</div>
-                        <div class="w-1/6 bg-[#3EAF0E] h-2 mt-2 rounded-lg"></div>
-                    </div>
-                    <div class="flex gap-2 mt-2">
-                        <div class="w-1/6">React</div>
-                        <div class="w-1/6 bg-[#3EAF0E] h-2 mt-2 rounded-lg"></div>
-                        <div class="w-1/6 bg-[#3EAF0E] h-2 mt-2 rounded-lg"></div>
-                    </div>
-                    </ul>
+                <ul class="pl-6 mb-5 list-disc space-y-1">
+                    <li>1bar-Project 9개 이하</li>
+                    <li>2bar-Project 10개 이상</li>
+                    <li>3bar-즉시 투입 가능</li>
+                </ul>
+                <div class="flex gap-2 mt-2">
+                    <div class="w-1/6">HTML/CSS</div>
+                    <div class="w-1/6 bg-[#3EAF0E] h-2 mt-2 rounded-lg"></div>
+                    <div class="w-1/6 bg-[#3EAF0E] h-2 mt-2 rounded-lg"></div>
+                    <div class="w-1/6 bg-[#3EAF0E] h-2 mt-2 rounded-lg"></div>
+                </div>
+                <div class="flex gap-2 mt-2">
+                    <div class="w-1/6">JavaScript</div>
+                    <div class="w-1/6 bg-[#3EAF0E] h-2 mt-2 rounded-lg"></div>
+                    <div class="w-1/6 bg-[#3EAF0E] h-2 mt-2 rounded-lg"></div>
+                    <div class="w-1/6 bg-[#3EAF0E] h-2 mt-2 rounded-lg"></div>
+                </div>
+                <div class="flex gap-2 mt-2">
+                    <div class="w-1/6">TypeScript</div>
+                    <div class="w-1/6 bg-[#3EAF0E] h-2 mt-2 rounded-lg"></div>
+                </div>
+                <div class="flex gap-2 mt-2">
+                    <div class="w-1/6">React</div>
+                    <div class="w-1/6 bg-[#3EAF0E] h-2 mt-2 rounded-lg"></div>
+                    <div class="w-1/6 bg-[#3EAF0E] h-2 mt-2 rounded-lg"></div>
                 </div>
             </div>
-            <div class="lg:w-3/4">
-                <div>
+        </div>
+            <div class="lg:w-3/4 lg:m-0 mt-6">
+                <div id="profile">
                     <div class="text-2xl text-[#3EAF0E] font-bold"><span
                             class="inline-block w-8 h-8 rounded bg-[#3EAF0E] text-white text-center">2</span> Profile
                     </div>
-                    <div>
+                    <div class="mt-4 space-y-2 ml-10">
                         <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus dolorum enim eum
                             tenetur vitae. Consequatur eligendi enim placeat provident rerum? Aliquam asperiores cumque
                             deleniti enim est, explicabo fuga magni quam?
@@ -130,16 +130,18 @@
                         </div>
                     </div>
                 </div>
-                <div class="mt-8">
+                <div id="projectHistory" class="mt-8 flex-col space-y-8">
                     <div class="text-2xl text-[#3EAF0E] font-bold"><span
                             class="inline-block w-8 h-8 rounded bg-[#3EAF0E] text-white text-center">3</span> Project
                         History
                     </div>
-                    <div>
-                        <div class="border-l-4 border-[#3EAF0E] pl-2 text-xl">Hello World <span class="text-sm text-gray-600">2021.04. - 2022.01</span></div>
+                    <div class="ml-10 flex-col space-y-2">
+                        <div class="border-l-4 border-[#3EAF0E] pl-2 text-xl">Hello World <span
+                                class="text-sm text-gray-600">2021.04. - 2022.01</span></div>
                         <div>used skill : <span class="text-blue-500">#JavaScript #HTML #CSS</span></div>
-                        <div>Project link : <a class="text-gray-400" href="https://github.com/ShinjungOh">https://github.com/ShinjungOh</a></div>
-                        <div class="mt-3 flex-col space-y-2">
+                        <div>Project link : <a class="text-gray-400" href="https://github.com/ShinjungOh">https://github.com/ShinjungOh</a>
+                        </div>
+                        <div class="ml-0 flex-col space-y-2">
                             <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, culpa deleniti
                                 dolorem
                                 est id ipsa laudantium natus nisi nulla pariatur possimus quos repellendus repudiandae
@@ -157,6 +159,83 @@
                                 tenetur totam unde? Animi cupiditate eos ipsa maiores voluptates! Alias dignissimos
                                 dolorem
                                 ipsum laboriosam, molestias nisi numquam officia quis!
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ml-10 flex-col space-y-2">
+                        <div class="border-l-4 border-[#3EAF0E] pl-2 text-xl">Hello World <span
+                                class="text-sm text-gray-600">2021.04. - 2022.01</span></div>
+                        <div>used skill : <span class="text-blue-500">#JavaScript #HTML #CSS</span></div>
+                        <div>Project link : <a class="text-gray-400" href="https://github.com/ShinjungOh">https://github.com/ShinjungOh</a>
+                        </div>
+                        <div class="ml-0 flex-col space-y-2">
+                            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, culpa deleniti
+                                dolorem
+                                est id ipsa laudantium natus nisi nulla pariatur possimus quos repellendus repudiandae
+                                sequi
+                                sunt velit voluptatem. Fuga, reprehenderit!
+                            </div>
+                            <div>Adipisci aperiam aut cumque delectus dicta dolorem earum, eveniet expedita fuga harum
+                                ipsam
+                                iusto modi nam nihil odio, perferendis perspiciatis possimus quae, quas qui quidem quod
+                                quos
+                                sit tempora ut.
+                            </div>
+                            <div>Accusamus, aperiam architecto ducimus enim error impedit iure laudantium maxime,
+                                ratione
+                                tenetur totam unde? Animi cupiditate eos ipsa maiores voluptates! Alias dignissimos
+                                dolorem
+                                ipsum laboriosam, molestias nisi numquam officia quis!
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ml-10 flex-col space-y-2">
+                        <div class="border-l-4 border-[#3EAF0E] pl-2 text-xl">Hello World <span
+                                class="text-sm text-gray-600">2021.04. - 2022.01</span></div>
+                        <div>used skill : <span class="text-blue-500">#JavaScript #HTML #CSS</span></div>
+                        <div>Project link : <a class="text-gray-400" href="https://github.com/ShinjungOh">https://github.com/ShinjungOh</a>
+                        </div>
+                        <div class="ml-0 flex-col space-y-2">
+                            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, culpa deleniti
+                                dolorem
+                                est id ipsa laudantium natus nisi nulla pariatur possimus quos repellendus repudiandae
+                                sequi
+                                sunt velit voluptatem. Fuga, reprehenderit!
+                            </div>
+                            <div>Adipisci aperiam aut cumque delectus dicta dolorem earum, eveniet expedita fuga harum
+                                ipsam
+                                iusto modi nam nihil odio, perferendis perspiciatis possimus quae, quas qui quidem quod
+                                quos
+                                sit tempora ut.
+                            </div>
+                            <div>Accusamus, aperiam architecto ducimus enim error impedit iure laudantium maxime,
+                                ratione
+                                tenetur totam unde? Animi cupiditate eos ipsa maiores voluptates! Alias dignissimos
+                                dolorem
+                                ipsum laboriosam, molestias nisi numquam officia quis!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-8 flex-col space-y-8">
+                    <div id="degree" class="text-2xl text-[#3EAF0E] font-bold"><span
+                            class="inline-block w-8 h-8 rounded bg-[#3EAF0E] text-white text-center">4</span> Degree
+                    </div>
+                    <div class="ml-10 flex-col space-y-2">
+                        <div class="border-l-4 border-[#3EAF0E] pl-2 text-xl">Coding University <span
+                                class="text-sm text-gray-600">2017.03. - 2021.11</span></div>
+                        <div class="ml-0">
+                            <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere illum esse, blanditiis
+                                odio tenetur odit consectetur accusamus consequuntur neque assumenda eveniet, aperiam cumque
+                                unde architecto, fugiat quas porro? Quo, officia!
+                            </div>
+                            <div>Ea nam suscipit animi libero voluptas qui, eos obcaecati debitis! Id mollitia ab, laborum
+                                distinctio porro quisquam quo dicta quis, amet quidem atque, harum praesentium. Nobis cumque
+                                earum mollitia provident.
+                            </div>
+                            <div>Sed eum fugit consectetur. Totam facilis eligendi quisquam eaque quis tempore incidunt
+                                adipisci eos sapiente saepe nostrum esse, harum cum voluptate facere quae nulla qui
+                                reiciendis inventore ea obcaecati vel!
                             </div>
                         </div>
                     </div>
